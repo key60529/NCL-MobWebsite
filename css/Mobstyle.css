@@ -143,10 +143,10 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 }
 
 @media screen and (max-width: 600px) {
-	.titleBox {font-size: 2.5em;}
+	.titleBox {font-size: 1.8em;}
 	.indroBox li { font-size:1.5em;}
 }
 @media screen and (max-width: 400px) {
-	.titleBox {font-size: 1.5em;}
+	.titleBox {font-size: 1.2em;}
 	.indroBox li { font-size:1em;}
 }
