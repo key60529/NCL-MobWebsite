@@ -37,7 +37,7 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 /* ~~ this container surrounds all other divs giving them their percentage-based width ~~ */
 .container {
-	width: 100%;
+	width: auto;
 	max-width: 1260px;/* a max-width may be desirable to keep this layout from getting too wide on a large monitor. This keeps line length more readable. IE6 does not respect this declaration. */
 	background-color: #FFF;
 	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout. It is not needed if you set the .container's width to 100%. */
