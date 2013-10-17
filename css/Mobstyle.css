@@ -120,9 +120,8 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 .titleBox {
 	cursor: pointer;
 	font-size:4em; 
-	padding: 0 6%;
 	height: 10%;
-	width: 100%;
+	width: 90%;
 	margin:0 auto;
 	position:relative;
 	color:#fff;
