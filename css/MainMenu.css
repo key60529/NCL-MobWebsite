@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.menuButton {
+	width: 15%;
+	position: absolute;
+	right:5%;
+	top:10%;
+}
+
+
+.menuContainer {
+	position: absolute;
+	width: 80%;
+	height:90%;
+	z-index: 11;
+	margin-right: 0;
+	background-color: #ccc;
+	-moz-border-radius: 0 0 0 15px;
+	border-radius: 0 0 0 15px;
+	opacity: 0;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+}
+

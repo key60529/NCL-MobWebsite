@@ -90,13 +90,6 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 
 .logoBox {width:60%; position:relative;}
 
-.menuButton {
-	width: 15%;
-	position: absolute;
-	right:5%;
-	top:10%;
-}
-
 
 .imgBoxer {
 	width:100%;
@@ -149,4 +142,24 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 @media screen and (max-width: 400px) {
 	.titleBox {font-size: 1.2em;}
 	.indroBox li { font-size:1em;}
+}
+
+
+.aboutCoBox {
+	width:100%;
+	height:auto;
+	background-color:#fff;
+}
+
+.aboutCoBox img {margin: 3% auto;}
+
+.aboutCoBox p {font-size: 1em;}
+
+
+.copyRightBox {
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+	height:auto;
+	padding:3% 0;
 }
