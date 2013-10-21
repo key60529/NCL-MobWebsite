@@ -12,28 +12,46 @@
 .menuContainer {
 	position: absolute;
 	width: 0;
+	right: 0;
 	height: 100%;
 	z-index: 11;
-	margin-right: 0;
+	opacity:0;
+	overflow:hidden;
 	background-color: #ccc;
-	-moz-border-radius: 0 0 0 15px;
-	border-radius: 0 0 0 15px;
-	opacity: 0;
+	-moz-border-radius: 0 0 0 30px;
+	border-radius: 0 0 0 30px;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
+	background-image:url(images/pattern_2.png);
 }
 
 
 .menuCloseBn {
 	width:6%;
 	height:6%;
-	min-width:20;
-	min-height:20;
-	max-width:43;
-	max-height:43;
+	min-width:20px;
+	min-height:20px;
+	max-width:30px;
+	max-height:30px;
 	position:absolute;
-	width: 15%;
-	right:5%;
-	top:10%;
+	right:10%;
+	top:8%;
+}
+
+
+.menuContainer ul {
+	list-style-type:none;
+	margin-left:20%;
+	margin-top:15%;
+	color:#fff;
+	font-size:1.5em;
+}
+
+#currentPage {color:#FF0;}
+
+
+.menuContainer a:link, .menuContainer a:visited  {
+	color:#fff;
+	text-decoration: none;
 }

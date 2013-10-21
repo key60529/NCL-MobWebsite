@@ -24,14 +24,15 @@ a img { /* this selector removes the default blue border displayed in some brows
 
 /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
 a:link {
-	color:#414958;
-	text-decoration: underline; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+	color:#369cdd;
+	text-decoration: none; /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
 }
 a:visited {
-	color: #4E5869;
-	text-decoration: underline;
+	color: #369cdd;
+	text-decoration: none;
 }
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	color: #3333CC;
 	text-decoration: none;
 }
 
@@ -162,4 +163,20 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 	width:auto;
 	height:auto;
 	padding:3% 0;
+}
+
+
+.hyperWhite {
+	color:#fff;
+	text-decoration: none;
+}
+
+.breakLine {width:90%;}
+
+
+.style2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	color: #555555;
 }
