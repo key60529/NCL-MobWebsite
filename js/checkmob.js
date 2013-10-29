@@ -5,5 +5,5 @@ if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)
 
 if(navigator.userAgent.match(/Android/i)) {
   // Redirect to Android-site?
-  window.location = 'http://www.newcreativeadv.com/testmobweb/m_index.html';
+  window.location = 'http://www.newcreativeadv.com/m_web/m_index.html';
 }
